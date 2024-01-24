@@ -1,5 +1,8 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const header = React.createElement(
-  "h1",
+  "h12",
   { id: "heading", className: "header" },
   React.createElement(
     "div",
@@ -7,7 +10,7 @@ const header = React.createElement(
     React.createElement(
       "div",
       { id: "sub-heading2", className: "sub-header2" },
-      "Subheader2"
+      "Subheader22"
     )
   )
 );
