@@ -1,0 +1,25 @@
+{
+  "name": "namaste-react-starter",
+  "version": "1.0.0",
+  "description": "\"Namaste React Codes\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejomayonline/namaste-react-webseries.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "tejomaysaha@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tejomayonline/namaste-react-webseries/issues"
+  },
+  "homepage": "https://github.com/tejomayonline/namaste-react-webseries#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}

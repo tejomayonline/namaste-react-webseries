@@ -12,8 +12,6 @@ const header = React.createElement(
   )
 );
 
-console.log(header);
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(header);
