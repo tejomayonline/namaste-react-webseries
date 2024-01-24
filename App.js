@@ -1,19 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
-const header = React.createElement(
-  "h12",
-  { id: "heading", className: "header" },
-  React.createElement(
-    "div",
-    { id: "sub-heading", className: "sub-header" },
-    React.createElement(
-      "div",
-      { id: "sub-heading2", className: "sub-header2" },
-      "Subheader22"
-    )
-  )
-);
+const header = <h1 id="header">JS with React</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
